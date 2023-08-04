@@ -73,7 +73,7 @@ function nextseq(){
 
 
 function playaudio(nam){
-    var naud=new Audio("sounds/"+nam+".mp3");
+    var naud=new Audio(nam+".mp3");
     naud.play();
 }
 
